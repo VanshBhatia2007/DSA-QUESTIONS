@@ -5,8 +5,7 @@
 | S.NO.       | 📚 Title             | 📁 Code Folder |
 |--------|---------------------------------------|----------------|
 | 1 | Pattern 1  | [pattern 1](Questions/pattern1.cpp) |
-| 2 | Simple Interest  | [simple interest](Topics/identifiers) |
-| 3 | Conditionals  | [conditionals](Topics/conditionals) |
+| 2 | Simple Interest  | [simple interest](Questions/simple-intrest.cpp) |
 
 > 📝 *I'll keep updating this table as I Practice more.*
 
