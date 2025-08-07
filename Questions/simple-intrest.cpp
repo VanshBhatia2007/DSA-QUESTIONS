@@ -9,3 +9,8 @@ int main(){
     return 0; 
 
 }
+//output :
+// 100
+// 100
+// 100
+// simple interest:10000
