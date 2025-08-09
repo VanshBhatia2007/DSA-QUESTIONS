@@ -7,6 +7,7 @@
 | 1 | Pattern 1  | [pattern 1](Questions/pattern1.cpp) |
 | 2 | Simple Interest  | [simple interest](Questions/simple-intrest.cpp) |
 | 3 | Prime Number  | [prime number](Questions/prime-number.cpp) |
+| 4 | Largest Number  | [largest number](Questions/largest-no.cpp) |
 
 > 📝 *I'll keep updating this table as I Practice more.*
 
