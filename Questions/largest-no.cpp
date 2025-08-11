@@ -7,12 +7,12 @@ int main() {
     cin >> n;
     i = 1;
     while(i<=n){
-        cin >> no;
+        cin >>no;
         if(no>l){
             l = no;
         }
         i=i+1;
     }
-    cout << "largest number is:" << l;
+    cout << "largest number is:" << l<< endl; //'/n'= endl
     return 0;
 }
