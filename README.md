@@ -13,6 +13,11 @@
 | 7 | typrcasting  | [Typecasting](Questions/character.cpp) |
 | 8 |  Square root  | [Sqrt](Questions/sqrt.cpp) |
 | 9 | Non Perfect Square root  | [Non Perfect Sqrt](Questions/non-p-sqrt.cpp) |
+| 10 | Count Set Bits  | [Count Set Bits](Questions/count-set-bits.cpp) |
+| 11 | Pattern 0-1  | [Pattern 0-1](Questions/pattern0-1.cpp) |
+| 12 | Print Binary  | [Print Binary](Questions/printbinary.cpp) |
+| 13 | Reverse number  | [reverse number](Questions/reverse-no.cpp) |
+| 14 | Unique Number  | [Unique Number](Questions/unique-no.cpp) |
 
 > 📝 *I'll keep updating this table as I Practice more.*
 
