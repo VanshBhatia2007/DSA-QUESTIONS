@@ -10,7 +10,7 @@
 | 4 | Largest Number  | [largest number](Questions/largest-no.cpp) |
 | 5 | Star Pattern  | [star pattern](Questions/star_pattern.cpp) |
 | 6 | fahrenheit to celsius  | [fahrenheit to celsius](Questions/f-c.cpp) |
-| 7 | typrcasting  | [Typecasting](Questions/character.cpp) |
+| 7 | typecasting  | [Typecasting](Questions/character.cpp) |
 | 8 |  Square root  | [Sqrt](Questions/sqrt.cpp) |
 | 9 | Non Perfect Square root  | [Non Perfect Sqrt](Questions/non-p-sqrt.cpp) |
 | 10 | Count Set Bits  | [Count Set Bits](Questions/count-set-bits.cpp) |
