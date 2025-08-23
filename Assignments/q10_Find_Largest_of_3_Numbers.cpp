@@ -4,13 +4,13 @@ using namespace std;
 int main() {
     int n , l,no;
     l = INT_MIN;
-    cin>>n;
-    for(int i = 1 ; i<=n;i++){
+
+    for(int i = 1 ; i<=3;i++){
         cin>>no;
         if(no>l){
             l=no;
         }
     }
-    cout<<l;
+    cout<<no;
 	return 0;
 }
