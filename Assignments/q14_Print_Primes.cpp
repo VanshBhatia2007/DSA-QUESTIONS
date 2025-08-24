@@ -1,20 +1,20 @@
 #include<iostream>
 using namespace std;
 int main () {
-    int  n,b=1,c=0;
+    int  a,n,b=0,c=2,cnt;
+    bool p;
     cin>>n;
     for(int i=2;i<=n;i++){
-        for(int a=2;a<=i;a++){
-            while(c=a%a+b){
-                while(b<b-1){
-                    b=b+1;
-                }
-            }
-            if(c==1){
-                cout<<a<<endl;
+        p=true;
+        for(int j=2;j<i;++j){
+            if(i%j==0){
+                p = false;
             }
         }
+        if(p){
+            cout<<i<<endl;
+        }
+        
     }
-
-	return 0;
+    return 0;
 }

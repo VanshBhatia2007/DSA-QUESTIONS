@@ -5,12 +5,12 @@ int main() {
     int n , l,no;
     l = INT_MIN;
 
-    for(int i = 1 ; i<=3;i++){
+    for(int i = 1 ; i<=5;i++){
         cin>>no;
         if(no>l){
             l=no;
         }
     }
-    cout<<no;
+    cout<<l;
 	return 0;
 }
