@@ -2,17 +2,16 @@
 using namespace std;
 
 int main(){
-    int i , n;
+    int i , n , step;
     int c;
-    i=0;
+    cin>>i;
     cin>>n;
-    cout<<"f"<<" |  "<<"c"<<"\n";
-    cout<<"_"<<" |  "<<"_"<<"\n";
+    cin>>step;
     while(i<=n){
         c=(5/9.0)*(i-32);
-        cout<<i<<" |  "<<c;
-        i=i+20;
-        cout<<'\n';
+        cout<<i<<" "<<c;
+        i=i+step;
+        cout<<endl;
     }
     return 0;
 }
