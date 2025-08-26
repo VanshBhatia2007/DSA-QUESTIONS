@@ -23,7 +23,8 @@
 | 17 | Direction  | [Direction](Questions/direction.cpp) |
 | 18 | Largest no. in Array  | [Largest no. in Array](Questions/largestinarray.cpp) |
 | 19 | Pattern ABC  | [Pattern ABC](Questions/patternabc.cpp) |
-| 14 | Unique Number  | [Unique Number](Questions/pattern4.cpp) |
+| 20 | Pattern 4  | [Pattern 4](Questions/pattern4.cpp) |
+
 
 > 📝 *I'll keep updating this table as I Practice more.*
 
