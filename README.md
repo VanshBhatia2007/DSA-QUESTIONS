@@ -18,6 +18,12 @@
 | 12 | Print Binary  | [Print Binary](Questions/printbinary.cpp) |
 | 13 | Reverse number  | [reverse number](Questions/reverse-no.cpp) |
 | 14 | Unique Number  | [Unique Number](Questions/unique-no.cpp) |
+| 15 | Array Reverse  | [Array Reverse](Questions/arrayreverse.cpp) |
+| 16 | Count Chracters Till $  | [Count Chracters](Questions/countchar.cpp) |
+| 17 | Direction  | [Direction](Questions/direction.cpp) |
+| 18 | Largest no. in Array  | [Largest no. in Array](Questions/largestinarray.cpp) |
+| 19 | Pattern ABC  | [Pattern ABC](Questions/patternabc.cpp) |
+| 14 | Unique Number  | [Unique Number](Questions/pattern4.cpp) |
 
 > 📝 *I'll keep updating this table as I Practice more.*
 

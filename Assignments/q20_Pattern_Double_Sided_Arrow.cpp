@@ -14,7 +14,7 @@ int main(){
         int a=r;
         for(int i=1;i<=r;i++){
             cout<<a;
-            r!=1 ? cout<<" " : cout<<"";
+            cout<<" ";
             a=a-1;
         }
         for(int i=1;i<=r-1 and r>1;i++){
