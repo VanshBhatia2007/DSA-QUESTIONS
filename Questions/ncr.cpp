@@ -18,9 +18,9 @@ int ncr(int n,int r){
 }
 
 int main(){
-    int a,b;
-    cin>>a;
-    cin>>b;
-    cout<<ncr(a,b);
+    int n,r;
+    cin>>n;
+    cin>>r;
+    cout<<ncr(n,r);
     return 0;
 }

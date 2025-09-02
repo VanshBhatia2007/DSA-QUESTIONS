@@ -13,11 +13,11 @@ void table(int i , int n , int step){
 }
 
 int main(){
-    int i , n , step;
+    int i , a , step;
     cin>>i;
-    cin>>n;
+    cin>>a;
     cin>>step;
-    table(i,n,step);
+    table(i,a,step);
     
     return 0;
 }

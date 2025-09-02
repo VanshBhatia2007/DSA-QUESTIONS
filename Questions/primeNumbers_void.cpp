@@ -11,7 +11,7 @@ bool checktf(int n){
     return true;
 }
 
-int checkprimes(int n){
+void checkprimes(int n){
 
     for (int i=2;i<=n;++i){
         if(checktf(i)){
