@@ -9,7 +9,7 @@ void subset(int *a,int *b,int n,int i,int j){
         for(int k=0;k<j;k++){
             cout<<b[k]<<" ";
         }
-        cout<<endl; 
+        cout<<endl;
     }
 
     //exclude
@@ -26,7 +26,7 @@ int main(){
     int n,target,i,j;
     cin>>n;
     cin>>target;
-    int a[n],b[n];
+    int a[n],b[10];
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
