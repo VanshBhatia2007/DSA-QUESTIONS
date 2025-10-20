@@ -8,6 +8,7 @@ int main(){
     for(int i=0;x>0;x/=10){
         d=x%10;
         revrsevalue[i]=d;
+        
         i++;
         cnt++;
     }

@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-    int a[100];
     int n,ans;
     cin>>n;
+    int a[n];
     for(int i=0;i<n;++i){
         cin>>a[i];
     }
@@ -24,7 +24,10 @@ int main(){
         }
         if(fre>n/2){
             ans=a[i];
+            cout<<ans;
+            return 0;
         }
     }
-    return ans;
+    cout<<"doesnt exixts";
+    return 0;
 }
