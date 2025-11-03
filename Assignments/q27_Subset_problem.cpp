@@ -1,35 +1,51 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
-
-void subset(int *a,int *b,int n,int i,int j){
+void subset_sum(vector<int> a,vector<int> b,int target,int i){
     //base case
-    if(a[i]=='\0'){
-        b[j]='\0';
-        for(int k=0;k<j;k++){
-            cout<<b[k]<<" ";
+    if(i==b.size()){
+        for(int i=0;i<b.size();i++){
+            cout<<b[i]<<" ";
+        }
+        //recursive case
+        int sum;
+        for(int i=0;i<b.size();i++){
+            
+        }
+    }
+}
+
+
+void subset(vector<int> &a,vector<int> &b,int i){
+    //base case
+    if(i==a.size()){
+        for(int i=0;i<b.size();i++){
+            cout<<b[i]<<" ";
         }
         cout<<endl;
+        return;
     }
+    //recursive case
+    b.push_back(a[i]);
+    //include
+    subset(a,b,i+1);
 
     //exclude
-    subset(a,b,n,i+1,j);
-    //include
-    b[j]=a[i];
-    subset(a,b,n,i+1,j+1);
-
-
+    b.pop_back();
+    subset(a,b,i+1);
 }
 
 int main(){
     
-    int n,target,i,j;
+    int n,target,i,j,num;
     cin>>n;
-    cin>>target;
-    int a[n],b[10];
+    vector<int> a,b;
     for(int i=0;i<n;i++){
-        cin>>a[i];
+        cin>>num;
+        a.push_back(num);
     }
-    subset(a,b,n,0,0);
+    cin>>target;
+    subset(a,b,0);
     return 0;
 }
