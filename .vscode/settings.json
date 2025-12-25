@@ -2,5 +2,6 @@
     "files.associations": {
         "*.dbclient-js": "javascript",
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
